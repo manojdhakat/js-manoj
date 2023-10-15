@@ -45,6 +45,7 @@ const myFunction = function (){            // function
 
 
 //  stack (primitive), heap(non-primitive)
+// stack me copy milta he heap me refrence milta he
 let myYoutubename = "manojdhakar"
 
 
@@ -53,3 +54,16 @@ anothername= "chaiaurcode"
 
 console.log(myYoutubename);
 console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "uder@ybl"
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "hites@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
