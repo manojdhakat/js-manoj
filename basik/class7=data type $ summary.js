@@ -15,8 +15,22 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-
+// const BigNumber = 7435374573465197568n
 
 // Reference (non primitive)
 // Array, Object,function
 
+const heros =  ["shaktiman", "neeraj", "doga"];   // Array
+let myObj = {                                     // object
+    name: "manoj",
+    age: "20"
+
+}
+
+const myFunction = function (){            // function
+    console.log("hello world");
+}
+
+console.log(typeof anotherId);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
