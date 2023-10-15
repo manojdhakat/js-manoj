@@ -31,6 +31,6 @@ const myFunction = function (){            // function
     console.log("hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
