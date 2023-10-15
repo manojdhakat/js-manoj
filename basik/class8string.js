@@ -1,3 +1,9 @@
+// string mathd master karnaa he
+
+
+
+
+
 const name = "maoj-c"
 const repoCount = 50
 // console.log(name + repoCount + " value");  purana methad he ye
